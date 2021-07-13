@@ -43,6 +43,7 @@ public class IndexController {
     model.addAttribute("first", template("first", firstData));
     model.addAttribute("second", template("second", secondData));
     model.addAttribute("third", template("third", thirdData));
+
     return "index2";
   }
 
